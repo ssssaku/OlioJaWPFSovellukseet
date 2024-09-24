@@ -1,0 +1,16 @@
+﻿<Window x:Class="Harjoitus18KT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Laskin" Height="350" Width="400">
+    <Grid Margin="10">
+        <TextBox x:Name="txtNumber1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="10,10,0,0"/>
+        <TextBox x:Name="txtNumber2" HorizontalAlignment="Right" VerticalAlignment="Top" Width="150" Margin="0,10,10,0"/>
+
+        <Button Content="Summa" Width="100" Height="30" Margin="10,60,0,0" Click="BtnSumma_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Content="Erotus" Width="100" Height="30" Margin="120,60,0,0" Click="BtnErotus_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Content="Kertolasku" Width="100" Height="30" Margin="10,100,0,0" Click="BtnKertolasku_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Content="Jakolasku" Width="100" Height="30" Margin="120,100,0,0" Click="BtnJakolasku_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="txtResult" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Margin="0,160,0,0" IsReadOnly="True"/>
+    </Grid>
+</Window>

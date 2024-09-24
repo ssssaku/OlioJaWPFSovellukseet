@@ -1,0 +1,21 @@
+﻿<Window x:Class="Harjoitus17KT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Harjoitus17KT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="LampotilaLaske" Content="LämpöLaskuNappi" HorizontalAlignment="Left" Margin="154,202,0,0" VerticalAlignment="Top" Height="49" Width="120" Click="LampotilaLaske_Click"/>
+        <Button x:Name="LampotilaNosta" Content="LampotilaNostaNappi" HorizontalAlignment="Left" Margin="154,135,0,0" VerticalAlignment="Top" Height="49" Width="120" Click="LampotilaNosta_Click"/>
+        <TextBox x:Name="LampotilaTeksti" HorizontalAlignment="Left" Margin="154,184,0,0" TextWrapping="Wrap" Text="Lämpötila on nyt: 0°C" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="KeittiöValot" Content="Keittiö valot" HorizontalAlignment="Left" Margin="274,168,0,0" VerticalAlignment="Top" Height="49" Width="120" Click="KeittiöValot_Click"/>
+        <Button x:Name="OlohuoneenValot" Content="Olohuoneen valot" HorizontalAlignment="Left" Margin="394,168,0,0" VerticalAlignment="Top" Height="49" Width="120" Click="OlohuoneenValot_Click"/>
+        <Button x:Name="OviLukossa" Content="Oven lukko" HorizontalAlignment="Left" Margin="514,168,0,0" VerticalAlignment="Top" Height="49" Width="120" Click="OviLukossa_Click"/>
+        <TextBox x:Name="KeittiöValoTeksti" HorizontalAlignment="Left" Margin="274,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="OlohuoneenValoTeksti" HorizontalAlignment="Left" Margin="394,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="LukkoTeksti" HorizontalAlignment="Left" Margin="514,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="Harjoitus26KT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tehtävälista" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBox Name="TehtavaKentta" Width="300" Height="30" Margin="10"/>
+            <Button Content="Lisää Tehtävä" Width="150" Height="30" Click="LisaaTehtava_Click" Margin="10"/>
+            <Button Content="Muokkaa Tehtävän Tilaa" Width="150" Height="30" Click="MuokkaaTehtavanTilaa_Click" Margin="10"/>
+            <Button Content="Poista Tehtävä" Width="150" Height="30" Click="PoistaTehtava_Click" Margin="10"/>
+            <ListBox Name="TehtavaLista" Height="200" Width="300" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
